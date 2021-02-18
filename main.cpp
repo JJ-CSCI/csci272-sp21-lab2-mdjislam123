@@ -9,8 +9,23 @@ enum class Compass {N, S, W, E};
 
 // Write your code here
 class GPS {
+	double getLatitude {0.0, 90.0} , getLatitudeDirection ;
+	public :
+	void LatitudeAngleValues (double, double) ;
+
+
+public :
+double latitude () {return getLatitude;}
+compass getLatitudedirection {return getLatitudeDirection;}
+double getLongtidude () {return getLongtidude;}
+compass getLatitude() {return getLongtidude;}
 
 };
+
+enum compass {
+	double logtitude;
+	double Latitude;
+}
 
 //------------------------------
 //   DO NOT MODIFY TEST CASES
